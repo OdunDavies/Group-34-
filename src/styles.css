@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:ital,wght@0,700;1,900&display=swap');
+:root{
+    --softred : hsl(7, 99%, 70%);
+    --yellow : hsl(51, 100%, 49%);
+    --saturated-cyan: hsl(167, 40%, 24%);
+    --dark-blue: hsl(198, 62%, 26%);
+    --moderate-cyan: hsl(168, 34%, 41%);
+    --desaturated-blue: hsl(212, 27%, 19%);
+    --v-grayish-blue:  hsl(213, 9%, 39%);
+    --d-graish-blue: hsl(232, 10%, 55%);
+    --grayish-blue: hsl(210, 4%, 67%);
+    --white: hsl(0, 0%, 100%)
+}
+a{
+   text-decoration: none; 
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: red; */
+    /* height: 100vh; */
+}
+.intro{
+    background-image: url('../images/mobile/headerImage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    font-family: 'Fraunces';
+    position: relative;
+
+}
+.intro h1{
+    text-transform: uppercase;
+    color: white;
+    margin: 7rem 0 0 1rem;
+    letter-spacing: .7rem;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.logo-svg{
+ margin: 2rem 0 0 1rem;
+}
+.hamburg{
+    margin: 2rem 1rem 0 0;
+}
+.arrow{
+    position: absolute;
+    left: 235px;
+    top: 330px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    background-color: var(--white);
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    display: none;
+    /* margin: 10px 10px 0px 10px; */
+}
+nav ul li {
+    list-style-type: none;
+    margin: 10px 15px 0 10px;
+}
+nav ul li a{
+color: var(--grayish-blue);
+
+}
+.img-div{
+    overflow: hidden;
+
+}
+.img-div img{
+    width: 100vw;
+}
+.about-sec{
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Fraunces';
+}
+.about-sec img{
+    width: 100vw;
+}
+.about-sec .transform, .stand{
+    padding: 1rem;
+    margin: 2rem;
+    background-color: var(--white);
+}
+.transform h3, .stand h3{
+    font-size: 34px;
+    margin: 1rem 0 1rem 0;
+}
+.transform p, .stand p{
+    line-height: 1.9rem;
+    color: var(--grayish-blue);
+    margin-bottom: 1.8rem;
+}
+.transform a, .stand a{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.transform a{
+    border-bottom: 2px solid var(--yellow);
+    
+}
+.stand a {
+    border-bottom: 2px groove var(--softred);
+}
+.services{
+    text-align: center;
+}
+.serv-div{
+    /* background-color: var(--saturated-cyan); */
+    margin-top: -20rem;
+    color: var(--saturated-cyan);
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.serv-div h3{
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 18px;
+    font-family: 'Fraunces';
+}
+.serv-div p{
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.serv-img{
+    overflow: hidden;
+}
+.serv-img img{
+    width: 100vw;
+}
+.service-div{
+    margin-top: -15rem;
+    /* margin-bottom: 17rem; */
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: var(--dark-blue);
+}
+.service-div h3{
+   font-family: 'Fraunces';
+   margin-bottom: 15px;
+   font-size: 24px;
+}
+.service-div p{
+    font-weight: bold;
+    margin-bottom:200px;
+}
+.testimoni{
+    text-align: center;
+    margin-top: -30px;
+    font-family: 'Barlow';
+    background-color: white;
+
+}
+.testimoni img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 0 0 25px;
+}
+.testimoni h3{
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    letter-spacing: 7.5px;
+    color: var(--grayish-blue);
+    font-family: 'Fraunces';
+}
+.testimoni div{
+    color: var(--d-graish-blue);
+    line-height: 30px;
+}
+.testimoni div small{
+    color: var(--grayish-blue);
+}
+.sec-div img, .third-div img{
+    margin-top: 50px;
+}
+.testimoni div p{
+    margin-bottom: 20px;
+}
+.testimoni div h4{
+    color: black;
+    font-family: 'Fraunces';
+}
+.projects{
+    overflow: hidden;
+    margin-top: 80px;
+}
+.projects img{
+    width: 243px;
+    margin: -2px -2px -4px;
+}
+footer{
+    background-color: var(--moderate-cyan);
+    text-align: center;
+    padding: 50px;
+    
+}
+footer .logo{
+    color: var(--saturated-cyan);
+    margin-bottom: 20px;
+
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    font-family: 'Barlow';
+}
+footer ul li{
+    list-style-type: none;
+
+}
+footer ul li a{
+    color: var(--saturated-cyan);
+}
+footer ul li a:hover{
+ color: whitesmoke;
+}
+#contacts svg{
+ margin: 50px 10px;
+}
+#contacts .icon:hover{
+    cursor: pointer;
+    fill: #fff;
+}
+
+/* @media screen and min-width(1774px){
+
+} */

@@ -36,7 +36,7 @@ a{
     color: white;
     margin: 7rem 0 0 1rem;
     letter-spacing: .7rem;
-    font-size: 32px;
+    font-size: 33px;
     font-weight: bold;
     text-align: center;
 }
@@ -48,8 +48,8 @@ a{
 }
 .arrow{
     position: absolute;
-    left: 235px;
-    top: 330px;
+    left: 237px;
+    top: 332px;
 }
 header{
     display: flex;
@@ -93,7 +93,7 @@ color: var(--grayish-blue);
     background-color: var(--white);
 }
 .transform h3, .stand h3{
-    font-size: 34px;
+    font-size: 32px;
     margin: 1rem 0 1rem 0;
 }
 .transform p, .stand p{
@@ -110,7 +110,7 @@ color: var(--grayish-blue);
     
 }
 .stand a {
-    border-bottom: 2px groove var(--softred);
+    border-bottom: 3px groove var(--softred);
 }
 .services{
     text-align: center;
